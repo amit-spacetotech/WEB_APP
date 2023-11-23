@@ -1,0 +1,45 @@
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.head1{
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: Quicksand;
+    font-weight: 600;
+
+
+}
+
+.head1 span{
+    color:#f8cd46
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.thumbnail{
+    color: transparent;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 700;
+    /* margin-top: 8px; */
+    margin: 8px 0 0;
+}
+
+.date{
+    color: #9E9E9E;
+    font-size: 10px;
+
+}

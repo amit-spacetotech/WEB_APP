@@ -1,0 +1,184 @@
+.form {
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px -4px 7px -4px #00000029;
+  padding: 20px 20px 20px 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.fullTextField {
+  width: 100%;
+  margin: 0.6rem 0;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  border: 0;
+  font-size: 0.7rem;
+  border-bottom: solid 1px grey;
+}
+
+.profileComp h2,
+.form h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: var(--quickSand--font);
+}
+.form select {
+  width: 100%;
+  font-size: 0.8rem;
+  color: gray;
+  border: 0;
+  margin: 0.5rem 0;
+  border-bottom: solid 1px black;
+}
+.flexComp {
+  width: 92%;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexComp span {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: var(--poppins-font);
+}
+.profileComp button {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.profileComp button,
+.flexComp button {
+  border: 0;
+  background: #f8cd46;
+  color: white;
+  font-family: var(--poppins-font);
+  font-weight: bold;
+  width: fit-content;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  padding: 0.4rem 2.5rem;
+}
+.end p {
+  margin: 1.2rem 0 !important;
+}
+
+.form p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: var(--poppins-font);
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  margin-left: 0.1rem;
+}
+.equalMargin {
+  margin: 0.5rem 0;
+}
+.lessMargin {
+  margin: 0.2rem 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+}
+.selectionInput input::-webkit-inner-spin-button,
+.selectionInput input::-webkit-outer-spin-button,
+.halfWidth input::-webkit-outer-spin-button,
+.halfWidth input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.selectionWithInput,
+.selectionRadion,
+.selector,
+.selection {
+  display: flex;
+  align-items: center;
+}
+.selection {
+  margin: 0.6rem 0;
+  align-items: flex-end !important;
+}
+.selectionWithInput,
+.selection,
+.selector {
+  justify-content: space-between;
+}
+
+.selector h3 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.selectionWithInput p {
+  width: 50%;
+  font-size: 0.9rem;
+}
+.selectionWithInput .selectionInput {
+  width: 45%;
+  border-top: 0;
+  margin: 0.35rem 0;
+  border-left: 0;
+  border-right: 0;
+}
+.selectionInput input {
+  width: 100%;
+}
+.selection p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-family: var(--poppins-font);
+  width: 60%;
+}
+.selectionInput {
+  width: 85%;
+}
+.selectionInput input {
+  border-top: 0;
+  padding-bottom: 0.2rem;
+  margin: 0.35rem 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+}
+.selector {
+  width: 29%;
+}
+.selector svg {
+  cursor: pointer;
+}
+
+.selectionRadion label {
+  margin-right: 1rem;
+  margin-left: 0.2rem;
+  font-size: 0.85rem;
+}
+.form h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: var(--poppins-font);
+}
+
+.halfWidth {
+  width: 40%;
+}

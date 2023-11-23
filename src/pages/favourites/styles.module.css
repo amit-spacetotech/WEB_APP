@@ -1,0 +1,122 @@
+.container {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding: 35px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+}
+.dashCard {
+  width: 30%;
+}
+.card h3 {
+  font-size: 1rem;
+  color: black;
+}
+.card p {
+  color: #8b8b8b;
+}
+.thumbnail {
+  color: transparent;
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  box-shadow: 0px 3px 6px #00000008;
+  border-radius: 20px;
+}
+.pagination {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center !important;
+}
+.userProfile {
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.fev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  gap: 10px;
+  margin-top: 20px;
+}
+.fev > h4 {
+  text-decoration: underline 3px #f8cd46;
+  font-family: var(--quickSand--font);
+  font-weight: 700;
+  font-size: 1.28rem;
+}
+.emptyContent {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.emptyContent p {
+  font-size: 1.7rem;
+  letter-spacing: 0.01rem;
+  margin: 1.5rem 0;
+  color: #606060;
+  font-family: var(--quickSand--font);
+}
+.emptyContent button {
+  background: #f8cd46 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 10px;
+  color: white;
+  width: 23%;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: var(--poppins-font);
+  border: 0;
+}
+@media (max-width: 600px) {
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    width: 100%;
+  }
+  .fev {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    padding-bottom: 100px;
+  }
+  .emptyContent p {
+    font-size: 1.11rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  .emptyContent button {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
+.mobileBack {
+  position: absolute;
+  top: 5rem;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 0.4rem 0.6rem;
+  left: 1.5rem;
+  border-radius: 50px;
+}

@@ -1,0 +1,37 @@
+.container {
+  margin: auto;
+  width: 93%;
+  min-height: 100%;
+}
+
+.content {
+  width: 90%;
+  height: 100%;
+}
+
+.container h4 {
+  font-family: var(--poppins-font);
+}
+.container h4 span {
+  cursor: pointer;
+}
+.content {
+  color: #000000 !important;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+}
+.content span {
+  color: #000000 !important;
+}
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.content{
+  margin-left: 7%;
+  margin-bottom: 30px;
+}

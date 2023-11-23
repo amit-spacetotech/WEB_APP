@@ -1,0 +1,47 @@
+.createAccount {
+  background-color: #fffdf2;
+}
+.numberDiv {
+  display: flex;
+  background-color: #fffdf2;
+
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+}
+.numberDiv span {
+  color: #9e9e9e;
+  display: flex;
+}
+.number {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+#active {
+  color: #ffffff;
+  background-color: #f8cd46;
+}
+.number span {
+  margin-right: 5px;
+}
+
+#halfWidth {
+  display: none;
+}
+@media (max-width: 400px) {
+  #halfWidth {
+    display: flex;
+    gap: 20px;
+  }
+  #fullWidth {
+    display: none;
+  }
+}

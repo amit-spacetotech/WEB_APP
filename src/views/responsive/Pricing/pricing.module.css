@@ -1,0 +1,26 @@
+.container {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+}
+.container > h1 {
+  text-align: center;
+  margin-top: 13px;
+  margin: 20px 0 30px 0;
+  font-family: Quicksand;
+  font-weight: 600;
+}
+.content {
+  width: 90%;
+  margin: 20px auto 50px auto;
+  font-size: 12px;
+  text-align: left;
+  min-height: 70vh;
+  font-family: var(--quicksand--font);
+}
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}

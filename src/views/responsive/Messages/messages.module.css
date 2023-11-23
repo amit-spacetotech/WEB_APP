@@ -1,0 +1,350 @@
+.container {
+  width: 100%;
+  height: 88vh;
+  position: relative;
+}
+.header {
+  background: #f8cd46;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dateTag {
+  background: #ededed;
+  margin: 10px auto;
+  color: black;
+  width: fit-content;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  padding: 8px 50px;
+  font-weight: 500;
+}
+.header h2 {
+  font-family: var(--quickSand--font);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+}
+.header input {
+  border: 0;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.userList {
+  width: 100%;
+}
+.user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 0.5rem;
+  padding-top: 0.2rem;
+}
+
+.leftList {
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftList img {
+  width: 68%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.rightList {
+  width: 73%;
+  position: relative;
+  padding: 10px 5px;
+}
+.endList {
+  width: 9%;
+}
+.activeUser {
+  background: #fef0c4;
+  border-bottom: 0;
+  border-radius: 10px !important;
+}
+.endList p {
+  width: fit-content;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 50px;
+  background: #f8cd46;
+  padding: 4px 8px;
+}
+.rightList h3 {
+  color: #323232;
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: var(--quickSand--font);
+}
+.rightList p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #323232;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+  line-height: 1rem;
+  font-weight: 600;
+  font-family: var(--quickSand--font);
+}
+
+.headerChat {
+  position: relative;
+  background-color: #f8cd46;
+  top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  height: 70px;
+  border-bottom: solid 2px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerChat .leftHeader {
+  width: 60%;
+}
+.headerChat .leftHeader {
+  display: flex;
+  align-items: center;
+}
+.headerChat .leftUserHead {
+  width: 30%;
+  margin-right: 0.5rem;
+}
+.headerChat .leftUserHead img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.headerChat .rightUser {
+  width: 83%;
+  position: relative;
+  padding: 10px 5px;
+}
+.headerChat .rightUserHead {
+  width: 83%;
+  position: relative;
+  padding: 10px 5px;
+}
+.rightUserHead h3 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: var(--poppins-font);
+  font-weight: 600;
+  margin: 0;
+}
+.rightUserHead p {
+  font-size: 0.7rem;
+  margin-bottom: 0 !important;
+  margin-top: 0.3rem;
+  font-family: var(--poppins-font);
+  line-height: 1.1rem;
+  color: #767676;
+  line-height: 1rem;
+}
+.rightHeader button {
+  box-shadow: 0px 3px 6px #0000001a;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  background: #f8cd46;
+  color: black;
+  font-weight: 600;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.chats {
+  overflow-y: scroll;
+  height: calc(100% - 155px);
+}
+.rightSide,
+.leftSide {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+}
+.leftSide {
+  padding-left: 10px;
+  flex-direction: row;
+}
+.leftSide p {
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 10px;
+  color: #323232;
+  font-size: 0.8rem;
+  font-family: var(--poppins-font);
+  border-radius: 0px 30px 30px 30px;
+  background: white;
+}
+.rightSide {
+  padding-right: 10px;
+  flex-direction: row-reverse;
+}
+.rightSide p {
+  color: #323232;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: var(--poppins-font);
+  border-radius: 30px 0px 30px 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  background: #ffe89f;
+}
+
+.inputBox {
+  position: relative;
+  margin-top: 5px !important;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.details h5 {
+  font-size: 0.7rem;
+  color: #707070;
+  line-height: 0.9rem;
+  font-weight: 400;
+  font-family: var(--poppins-font);
+}
+.details p {
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+}
+.details p span {
+  color: #a4a4a4;
+  font-size: 0.5rem;
+  line-height: 0.8rem;
+  text-align: right;
+}
+
+.rightSide .details h5 {
+  text-align: right;
+}
+.leftSide details h5 {
+  text-align: left;
+}
+
+.moveInReq {
+  width: 84%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.3rem;
+  background-color: #ededed;
+  border-radius: 30px;
+  padding: 0.8rem 1rem;
+}
+
+.moveInReq p {
+  color: #909090;
+  font-family: var(--poppins-font);
+  font-size: 0.55rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.moveInReq svg {
+  width: 25px;
+
+  position: relative;
+  top: -2px;
+}
+.moveInReq p span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.requestContainer {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.requestContainer h2 {
+  font-family: var(--quickSand--font);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.requestContainer p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2rem;
+  font-family: var(--poppins-font);
+  color: #040404;
+}
+.requestContainer button {
+  border: 0;
+  background-color: #f8cd46;
+  color: white;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 0.8rem;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 10px;
+  padding: 0.5rem 2.5rem;
+}
+
+.requestContainer span {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: #f8cd46;
+  margin-top: 0.6rem;
+}
+
+.request {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  height: 60px;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.requestRight {
+  display: flex;
+  align-items: center;
+}
+.request h5 {
+  font-size: 0.8rem;
+  color: #323232;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.1rem;
+  font-family: var(--poppins-font);
+}
+.options,
+.requestRight {
+  display: flex;
+  align-items: center;
+}
+.options {
+  padding: 0.9rem;
+}
+.options p {
+  cursor: pointer;
+  font-family: var(--poppins-font);
+}
+.inputBox textarea::-webkit-scrollbar {
+  display: none;
+}

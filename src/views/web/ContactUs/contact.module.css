@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto 40px;
+}
+.container * {
+  font-family: var(--poppins-font);
+}
+.container p,
+.container label {
+  font-size: 0.95rem;
+  margin-bottom: 0 !important;
+}
+.container button {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.content1 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.divider {
+  border-left: 1px solid lightgray;
+  margin-right: 40px;
+  margin-top: 3rem;
+}
+.flex {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.content2 {
+  width: 80%;
+}
+.content2 h4 {
+  font-family: var(--quickSand--font);
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.content2 textarea {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-family: var(--poppins-font);
+  border-color: lightgray;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.head1 {
+  font-size: 2.1rem;
+  font-family: var(--quickSand--font);
+  font-weight: 600;
+}
+.head1 span {
+  font-family: var(--quickSand--font);
+}
+
+.container p span,
+.head1 span {
+  color: #f8cd46;
+}
+.error {
+  color: red;
+  font-size: 0.7rem;
+}

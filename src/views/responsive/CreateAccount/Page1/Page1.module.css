@@ -1,0 +1,78 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0px 0;
+}
+.formDiv input[type="date"]::-webkit-datetime-edit {
+  color: none;
+}
+.formDiv input[type="date"]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+.page button {
+  background: #f8cd46 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  margin-top: 30vh;
+  color: #ffffff;
+  font-weight: bold;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+}
+.formDiv input {
+  /* style={{ marginTop: "10px", color: "#9F9F9F", border: "none", borderBottom: "1px solid #9F9F9F", height: "45px" }} */
+  margin-top: 10px;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-family: var(--poppins-font);
+  border: none;
+  border-bottom: 1px solid #9f9f9f;
+  height: 45px;
+  width: 100%;
+  background-color: transparent;
+}
+.formDiv h1 {
+  margin-top: 30px;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+.formDiv select {
+  font-size: 14px;
+  font-family: var(--poppins-font);
+  height: 40px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1.5px solid #9f9f9f;
+  outline: none;
+  background-color: transparent;
+}
+.formDiv select:disabled {
+  color: gray;
+}
+
+.formDiv select:enabled {
+  color: black;
+}
+.label {
+  font-size: 0.7rem;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  margin-left: 0.1rem;
+}
+.error {
+  color: red;
+  font-size: 0.7rem;
+}
+.page select {
+  background-color: transparent;
+}

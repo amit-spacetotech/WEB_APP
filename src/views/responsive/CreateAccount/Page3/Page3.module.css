@@ -1,0 +1,165 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px 0 0px;
+  gap: 40px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+}
+.formDiv h1 {
+  margin-top: 30px;
+  font-size: 1.75rem;
+  margin-bottom: 23px;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.formDiv select {
+  color: #8b8b8b;
+  font-size: 14px;
+  font-family: var(--poppins-font);
+  height: 45px;
+
+  border: none;
+  border-bottom: 1.5px solid #9f9f9f;
+  outline: none;
+  background-color: transparent;
+}
+.buttonDiv {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40vh;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.buttonDiv > div {
+  border: none;
+  background-color: transparent;
+  color: #606060;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buttonDiv > button:nth-child(2) {
+  background: #f8cd46 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 125px;
+}
+.innerDiv {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  flex-direction: column;
+}
+.form select {
+  width: 100%;
+  font-size: 0.8rem;
+  color: gray;
+  border: 0;
+  margin: 0.5rem 0;
+  border-bottom: solid 1px black;
+  background-color: transparent;
+}
+.radioDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 600;
+}
+.RadioInnerDiv {
+  display: flex;
+  gap: 20px;
+}
+.specify {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Budget {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 40px;
+}
+
+.halfWidth select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #9f9f9f;
+  padding-bottom: 0px;
+  outline: none;
+  margin-top: -20px;
+  background-color: transparent;
+}
+.religion {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #9f9f9f;
+  height: 45px;
+  outline: none;
+  color: black;
+}
+.religion::placeholder {
+  color: #9f9f9f;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flex1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.flex1 > div {
+  width: 100%;
+}
+
+.fullTextField {
+  width: 100%;
+  padding-bottom: 11px;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  border: 0;
+  font-size: 0.7rem;
+  border-bottom: solid 1px grey;
+}
+.label {
+  font-size: 0.7rem;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  margin-left: 0.1rem;
+}
+
+.halfWidth select {
+  width: 100%;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.equalMargin {
+  margin: 0.5rem 0;
+}
+.error {
+  color: red;
+  font-size: 0.7rem;
+}
+

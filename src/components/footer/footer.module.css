@@ -1,0 +1,158 @@
+.container {
+  background: #efd77b;
+  padding: 20px 0 1px;
+}
+
+.containerRes {
+  background: #efd77b;
+  padding: 20px 15px 1px;
+}
+
+.contentFirst {
+  display: flex;
+  width: 40%;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+
+.contentFirstRes {
+  display: flex;
+  /* text-align: center; */
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.contentFirst p {
+  cursor: pointer;
+}
+
+.contentFirstRes p {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contentSecondRes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerContentRes {
+  display: flex;
+  width: 15%;
+  justify-content: space-around;
+}
+
+.contentSecond {
+  width: 6%;
+  display: flex;
+  margin: 1.3rem 0 1.3rem 47vw;
+  justify-content: space-around;
+  gap: 20px;
+}
+.contentSecond img{
+  cursor: pointer;
+}
+.container hr {
+  height: 2px;
+  background-color: black;
+}
+
+.copyRight {
+  border-top: solid 1px #707070;
+  padding: 1rem 0;
+  text-align: center;
+
+  font-size: 0.85rem;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1200px) {
+  .contentFirst {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .contentSecondRes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contentFirst {
+    width: 88%;
+  }
+
+  .contentFirst p {
+    font-size: 0.9rem;
+  }
+  .copyRight {
+    font-size: 0.8rem;
+  }
+}
+.responsive {
+  display: none;
+}
+.copyRightResponsive {
+  font-size: 0.5rem;
+  margin-bottom: 0;
+  color: #000000cc;
+}
+.responsive {
+  align-items: center;
+  gap: 20px;
+  align-items: center;
+  height: 50px;
+  margin-top: -10px;
+}
+.responsive > div:nth-child(1) {
+  display: flex;
+  gap: 10px;
+
+  padding: 10px 10px;
+}
+.footerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+}
+
+@media (max-width: 600px) {
+  .contentFirst > p {
+    font-size: 0.7rem;
+    font-family: var(--poppins-font);
+  }
+  .responsive {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: solid 1px black;
+    margin:0 auto;
+    gap: 3%;
+  }
+  .copyRightDiv{
+    width: 100%;
+    margin-right: 0.4rem;
+    text-align: center;
+  }
+  .contentSecond {
+    display: none;
+  }
+  .responsive > div:nth-child(1) {
+    margin-left: 0.3rem;
+  }
+  .copyRight {
+    display: none;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+  }
+  .social img{
+    width: 23px !important;
+    height: 23px !important;
+  }
+}
